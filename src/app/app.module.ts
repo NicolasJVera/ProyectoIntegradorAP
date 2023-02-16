@@ -14,7 +14,6 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegistroComponent } from './components/registro/registro.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
     FooterComponent,
     LoginComponent,
     RegistroComponent,
-    DashboardComponent
   ],
   imports: [
     BrowserModule,
