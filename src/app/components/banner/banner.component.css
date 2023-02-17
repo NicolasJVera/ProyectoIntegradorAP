@@ -42,3 +42,35 @@
   
     .banner__content .btn {
       margin-top: 4rem; }
+
+
+  /* =====================
+    Botones
+  ===================== */
+  .td-btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .td-btn + .td-btn {
+    margin-left: 6px;
+  }
+  .td-btn.small {
+    font-family: 'Work Sans', helvetica, sans-serif;
+    font-size: 0.7rem;
+    padding: 9px 7px 8px;
+  }
+  
+  .outline.green {
+    border-color: #29a598;
+    color: #29a598;
+  }
+  .outline.green:focus,
+  .outline.green:hover {
+    background-color: #29a598;
+    color: #fffefd;
+  }
+  .outline.white {
+    border-color: #fffefd;
+    color: #fffefd;
+  }      
