@@ -2,7 +2,7 @@
     Login
   ===================== */
   .body-login {
-    /* background-image: url(../img/login_bg.png); */
+     background-image: url(../../../assets/img/login_bg.png); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
